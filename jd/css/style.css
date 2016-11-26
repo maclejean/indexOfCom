@@ -1,0 +1,241 @@
+body{
+    padding:0;
+    margin:0;
+}
+.wrap{
+    width: 1347px;
+    margin: 0  auto;
+}
+a{
+    text-decoration: none;
+}
+
+/*导航栏样式*/
+.nav{
+    height: 30px;
+    line-height: 30px;
+    background: #f0f2ef;
+}
+.center{
+    width: 1212px;
+    margin: 0 auto;
+}
+.nav .lft,.rgt{
+    height: 30px;
+}
+.nav .lft{
+    float: left;
+}
+.nav .rgt{
+    float: right;
+}
+.nav a{
+    display:inline-block;
+    font-size: 14px;
+    color: #6b6068;
+    height: 14px;
+    vertical-align: top;
+    margin-top:1px;
+}
+.nav i{
+    display:inline-block;
+    height: 10px;
+    border-left:1px solid #ccc;
+    margin: 0 5px;
+}
+.nav select{
+    display:inline-block;
+    font-size: 14px;
+    color: #676c68;
+    padding:0 13px 0 10px;
+    margin:0;
+    border:none;
+    outline:none;
+    background: #f0f2ef;
+}
+#jdApp b{
+    display: inline-block;
+    width: 7px;
+    height: 17px;
+    background:url("../images/jd2015img.png")
+}
+.nav span{
+    font-size: 14px;
+}
+.nav span>a{
+    color: #a52733;
+}
+/*导航栏样式结束*/
+/*logo及搜索框，购物车区域*/
+.logo-search-gwc{
+    padding-top: 24px;
+    height:76px;
+}
+#logo{
+    float: left;
+    margin-right: 94px;
+}
+/*搜索框*/
+.search{
+    width: 542px;
+    float: left;
+}
+.search>.box{
+    float: left;
+    width: 538px;
+    height: 32px;
+    line-height: 32px;
+    border: 2px solid #b61e1d;
+}
+.box input{
+    outline:none;
+    border: none;
+    margin:0;
+    padding:0;
+}
+.box input[type="text"]{
+    display: block;
+    float: left;
+    width: 453px;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 3px;
+}
+.box input[type="button"]{
+    display:block;
+    float: left;
+    width:82px;
+    height: 32px;
+    background: #b61e1d;
+}
+/*搜索框下的文字*/
+.search .txt{
+    margin-top: 10px;
+    float: left;
+}
+.search>.txt>a{
+    float: left;
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-right:10px;
+}
+.search>.txt>span>a{
+    float: left;
+    color: #b61e1d;
+    font-size: 14px;
+    margin-right:10px;
+}
+/*购物车按钮*/
+.gwc{
+    float: right;
+    width: 140px;
+    height: 34px;
+    border:1px solid #dfdfdf;
+    background: #f9f9f9;
+    text-align: center;
+    line-height: 28px;
+    margin-right: 64px;
+}
+.gwc i{
+    display: inline-block;
+    width:17px;
+    height:15px;
+    background: url("../images/jd2015img.png");
+}
+.gwc sup b{
+    vertical-align: 1px;
+    display: inline-block;
+    width:17px;
+    height: 16px;
+    background: #b61e1d;
+    color: #fff;
+    line-height: 16px;
+    border-radius: 9px;
+}
+/*logo及搜索框，购物车区域结束*/
+/*购物导航横栏*/
+.ctnav{
+    height: 43px;
+    border-bottom:#b2191b 2px solid;
+    line-height: 43px;
+    font-size: 16px;
+    color: #000;
+}
+.ctnav a{
+    float: left;
+    display:inline-block;
+    color:#333333;
+    margin-right: 42px;
+}
+.ctnav #allnav{
+    padding-left: 10px;
+    margin-right: 20px;
+    color:#fff;
+    height:43px;
+    width: 201px;
+    background:#b2191b ;
+}
+/*购物导航横栏结束*/
+/*购物导航清单*/
+.list-bgbanner-news>.center{
+    position: relative;
+}
+.list{
+    position: absolute;
+    top:0;
+    left:0;
+    padding-left: 10px;
+    width: 189px;
+    padding-right: 12px;
+    background: #c81622;
+    font-size: 14px;
+    color: #fff;
+}
+.list p{
+    margin: 0;
+    padding:12px 0;
+}
+.list span{
+    float: right;
+}
+.bgbanner{
+    position: absolute;
+    top: 10px;
+    left: 221px;
+}
+/*bigbanner区域结束*/
+
+.news{
+    font-size: 12px;
+    position: absolute;
+    right:0;
+    top:0;
+    left:961px;
+}
+.news a{
+    color: #676767;
+}
+.news h1{
+    font-size:16px;
+    font-weight: 100;
+}
+.news table th{
+    text-align: left;
+    width: 218px;
+    padding: 0 15px;
+}
+.news th p{
+    font-weight:100;
+}
+.news td{
+    text-align: center;
+}
+.news td a{
+    text-align: center;
+}
+.news td i{
+    display: inline-block;
+    padding: 12px 7px;
+    background-image: url("../images/icon.png");
+    background-position: 3px 2px;
+}
