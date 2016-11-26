@@ -1,0 +1,28 @@
+.content{
+    font-size: 14px;
+    padding-top:20px;
+    text-align: left;
+    padding-bottom: 60px;
+}
+.content img{
+    display: block;
+    float: left;
+    width:480px;
+    margin-bottom: 10px;
+}
+.content em{
+    display: block;
+    border-bottom: 1px dotted #888888;
+    margin-top: 24px;
+
+}
+.content em:nth-of-type(2n){
+    width:3em;
+}
+.content p{
+
+    line-height: 2em;
+}
+.content span{
+    font-weight: bold;
+}
